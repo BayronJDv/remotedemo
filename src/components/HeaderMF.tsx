@@ -6,7 +6,7 @@ const HeaderMF: React.FC = () => {
         <header className='header'>
             <div className="header-container">
                 <div className="logo">
-                    Stride
+                    StrideDemo
                 </div>
                 <nav className="nav-links">
                     <a href="#home">Home</a>
