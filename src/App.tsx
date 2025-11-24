@@ -1,10 +1,9 @@
 import './App.css';
-import Provider from './components/ProviderComponent';
 
 const App = () => {
   return (
     <div className="content">
-      <Provider />
+      <h1>sure</h1>
     </div>
   );
 };
