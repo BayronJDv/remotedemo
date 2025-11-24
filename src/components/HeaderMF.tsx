@@ -1,7 +1,7 @@
 import React from 'react';
-import './ProviderComponent.css';
+import './HeaderMF.css';
 
-const Provider: React.FC = () => {
+const HeaderMF: React.FC = () => {
   return (
     <div className="container">
       <div className="icon-container">
@@ -16,4 +16,4 @@ const Provider: React.FC = () => {
   );
 };
 
-export default Provider;
+export default HeaderMF;

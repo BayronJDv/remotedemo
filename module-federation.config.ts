@@ -3,8 +3,7 @@ import { createModuleFederationConfig } from '@module-federation/rsbuild-plugin'
 export default createModuleFederationConfig({
   name: 'remote',
   exposes: {
-    '.': './src/components/ProviderComponent.tsx',
-    './Button': './src/components/Button.tsx',
+    'HeaderMF': './src/components/HeaderMF.tsx',
   },
   shared: {
     react: { singleton: true },
