@@ -1,29 +1,16 @@
-# Rsbuild Project
+# Microfrontend: Header (remote)
 
-## Setup
+Este repositorio es un microfrontend remoto que expone el componente de encabezado (`HeaderMF`) para ser consumido por la aplicación principal (Host).
 
-Install the dependencies:
+## Funcionalidad
 
-```bash
-pnpm install
-```
+- Provee la barra de navegación superior (Header).
+- Expone el componente `HeaderMF` vía Module Federation.
+- Puerto por defecto: 3001.
 
-## Get Started
-
-Start the dev server:
+## Ejecución
 
 ```bash
-pnpm dev
-```
-
-Build the app for production:
-
-```bash
-pnpm build
-```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
+npm install
+npm run dev
 ```
